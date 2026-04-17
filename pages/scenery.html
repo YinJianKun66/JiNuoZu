@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-Cn">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>基诺族</title>
+  <!-- Bootstrap 的 CSS 文件 -->
+  <link rel="stylesheet" href="../resource/lib/bootstrap-4.6.1-dist/css/bootstrap.min.css">
+  <!-- scrollreveal js库 -->
+  <script src="../resource/lib/scrollreveal.min.js"></script>
+  <!-- CSS 样式 -->
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/scenery.css">
+  <link rel="stylesheet" href="./css/scenery-phone.css">
+</head>
+<body>
+  <!-- header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <!-- logo -->
+      <a href="#" class="nav_logo" id="nav_logo">
+        <i class="bi bi-cloud-haze2 nav_logo-icon"></i> 基诺族
+      </a>
+      <!-- nav list -->
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="./index.html" class="nav_link">首页</a>
+          </li>
+          <li class="nav_item">
+            <a href="./scenery.html" class="nav_link">基诺风景</a>
+          </li>
+          <li class="nav_item">
+            <a href="./food.html" class="nav_link">基诺美食</a>
+          </li>
+          <li class="nav_item">
+            <a href="./culture.html" class="nav_link">基诺文化</a>
+          </li>
+          <li class="nav_item">
+            <a href="./history.html" class="nav_link">基诺历史</a>
+          </li>
+        </ul>
+        
+        <div class="nav_close" id="nav-close">
+          <i class="bi bi-x"></i>
+        </div>
+      </div>
+      <!-- menu btn 屏幕像素小于768时 将nav list 展开和隐藏 -->
+      <div class="nav_btn">
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bi bi-list"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- jumbotron 全屏展示 -->
+  <div class="jumbotron-bg" id="jumbotron">
+    <div class="container jumbotron-data">
+      <h1 class="jumbotron-h1"><span class="highlight">生活</span>不必太急</h1>
+      <h1 class="jumbotron-h1">&nbsp;&nbsp;&nbsp;来雨林&nbsp;<span class="highlight">听风</span>&nbsp;<span class="highlight">喝茶</span></h1>
+      <div class="circle"></div>
+    </div>
+    <p class="jumbotron-p">悠游基诺，遇见慢时光</p>
+  </div>
+
+  <!-- content -->
+  <main class="content container" id="content">
+    <!-- 基诺风景简介 -->
+    <section class="guilin-intro">
+      <h2 class="intro-title">基诺景区</h2>
+      <p class="intro-content">
+        雨林深处的鼓声，古茶山上的云雾，基诺人在这里与万物共生。
+      </p>
+      <p class="intro-content">
+        一条环线串起山寨、雨林与茶园，半日车程，读懂基诺前世今生。
+      </p>
+      <p class="intro-content">
+        从市区出发半小时可达。人文、徒步、美食全覆盖，不走回头路。
+      </p>
+    </section>
+
+    <!-- scenery 旅游路线 -->
+    <section class="scenery">
+      <div class="scenery-bg">
+        <h2 class="scenery-title">探寻基诺传承——旅游路线 <i class="bi bi-camera-reels-fill"></i></h2>
+
+        <!-- 基诺山寨景区 卡片 -->
+        <div class="scenery-card">
+          <img class="scenery-img" src="../resource/images/JiNuoShanZhai.jpg" alt="">
+          <div class="card-data">
+            <h2 class="card-title">基诺山寨景区<i class="bi bi-quote"></i></h2>
+            <p class="card-p">
+              全国唯一基诺文化主题景区，可观赏基诺大鼓舞<br>
+            </p>
+            <!-- 装饰 -->
+            <div class="triangle"></div>
+            <img src="../resource/images/arrow-right.png" class="card-arrow" alt="">
+            <img src="../resource/images/yanzi.png" class="card-icon" alt="">
+          </div>
+        </div>
+
+        <!-- 大公房基诺文化博物馆 -->
+        <div class="scenery-card card-flex-right">
+          <img class="scenery-img img-rotate-right img-bg-pink" src="../resource/images/JiNuoBoWuGuan.jpg" alt="">
+          <div class="card-data">
+            <h2 class="card-title">大公房基诺文化博物馆</h2>
+            <p class="card-p">
+              展示基诺族从原始社会到现代的历史变迁<br>
+            </p>
+            <!-- 装饰 -->
+            <div class="card-circle"></div>
+            <img src="../resource/images/arrow-left.png" class="card-arrow-left" alt="">
+            <img src="../resource/images/bee.png" class="card-icon" alt="">
+          </div>
+        </div>
+
+        <!-- 巴朵村雨林徒步 -->
+        <div class="scenery-card">
+          <img class="scenery-img img-bg-blue" src="../resource/images/BaDuoCun.jpg" alt="">
+          <div class="card-data">
+            <h2 class="card-title">巴朵村雨林徒步<i class="bi bi-quote"></i></h2>
+            <p class="card-p">
+              平缓溯溪路线，可攀爬绞杀榕与体验高空秋千<br>
+            </p>
+            <!-- 装饰 -->
+            <div class="triangle"></div>
+            <img src="../resource/images/arrow-right.png" class="card-arrow" alt="">
+            <img src="../resource/images/flower.png" class="card-icon" alt="">
+          </div>
+        </div>
+
+        <!-- 巴飘村（基诺美食村） -->
+        <div class="scenery-card card-flex-right">
+          <img class="scenery-img img-rotate-right" src="../resource/images/BaPiaoCun.jpg" alt="">
+          <div class="card-data">
+            <h2 class="card-title">巴飘村（基诺美食村）</h2>
+            <p class="card-p">
+              品尝冬瓜煮鸡、火烧花等基诺族山野风味美食<br>
+            </p>
+            <!-- 装饰 -->
+            <div class="card-circle"></div>
+            <img src="../resource/images/arrow-left.png" class="card-arrow-left" alt="">
+            <img src="../resource/images/star.png" class="card-icon" alt="">
+          </div>
+        </div>
+
+        <!-- 啊司喃波基诺文化庄园 -->
+        <div class="scenery-card">
+          <img class="scenery-img img-bg-pink" src="../resource/images/ZhuangYuan.png" alt="">
+          <div class="card-data">
+            <h2 class="card-title">啊司喃波基诺文化庄园<i class="bi bi-quote"></i></h2>
+            <p class="card-p">
+              体验砍刀布制作、传统茶艺的复合型文化庄园<br>
+            </p>
+            <!-- 装饰 -->
+            <div class="triangle"></div>
+            <img src="../resource/images/arrow-right.png" class="card-arrow" alt="">
+            <img src="../resource/images/camera.png" class="card-icon" alt="">
+          </div>
+        </div>
+
+        <!-- 攸乐古茶山 -->
+        <div class="scenery-card card-flex-right">
+          <img class="scenery-img img-rotate-right img-bg-blue" src="../resource/images/ChaShan.jpg" alt="">
+          <div class="card-data">
+            <h2 class="card-title">攸乐古茶山</h2>
+            <p class="card-p">
+              漫步百年古茶园，体验采茶制茶品鉴攸乐古茶<br>
+            </p>
+            <!-- 装饰 -->
+            <div class="card-circle"></div>
+            <img src="../resource/images/arrow-left.png" class="card-arrow-left" alt="">
+            <img src="../resource/images/drink.png" class="card-icon" alt="">
+          </div>
+        </div>
+
+        <!-- 基诺山乡夜观/告庄夜市 -->
+        <div class="scenery-card">
+          <img class="scenery-img" src="../resource/images/YeShi.jpg" alt="">
+          <div class="card-data">
+            <h2 class="card-title">基诺山乡夜观/告庄夜市<i class="bi bi-quote"></i></h2>
+            <p class="card-p">
+              夜探雨林萤火虫或逛告庄星光夜市品傣乡小吃<br>
+            </p>
+            <!-- 装饰 -->
+            <div class="triangle"></div>
+            <img src="../resource/images/arrow-right.png" class="card-arrow" alt="">
+            <img src="../resource/images/glasses.png" class="card-icon" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer_box container">
+      <div class="footer_content">
+        <a href="#" class="footer_logo">
+          <i class="bi bi-cloud-haze2 nav_logo-icon"></i> 基诺族
+        </a>
+  
+        <h3 class="footer_title">太阳鼓唤醒的母系回响</h3>
+        <ul class="footer_data">
+          <li>
+            <i class="bi bi-emoji-smile icon_scale"></i> 欢迎走进基诺，探寻千年文化
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer_content">
+        <h3 class="footer_title">开发者成员</h3>
+  
+        <ul class="footer_data">
+          <li>
+            <i class="bi bi-geo-alt icon_scale"></i> 尹肖
+          </li>
+          <li>
+            <i class="bi bi-geo-alt icon_scale"></i> 张辉
+          </li>
+          <li>
+            <i class="bi bi-geo-alt icon_scale"></i> 赵魁
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer_content">
+        <h3 class="footer_title">联系我们</h3>
+  
+        <ul class="footer_data">
+          <li>
+            <i class="bi bi-envelope icon_scale"></i> 3516645335@163.com
+          </li>
+          <li>
+            <i class="bi bi-telephone-forward icon_scale"></i> 13769692732
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer_content">
+        <h3 class="footer_title">关于网站</h3>
+  
+        <ul class="footer_data">
+          <li>计算机设计大赛作品</li>
+          <li>介绍基诺族民族特色</li>
+          <li>2026年4月15日</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- up Top 按钮 -->
+  <a href="#jumbotron" class="up_top" id="up_top">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+
+  <!-- JQuery 和 Bootstrap -->
+  <script src="../resource/lib/jquery-3.6.0.min.js"></script>
+  <script src="../resource/lib/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+  <!-- script -->
+  <script src="./js/common.js"></script>
+  <script src="./js/scenery.js"></script>
+</body>
+</html>
