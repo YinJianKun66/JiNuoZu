@@ -10,14 +10,21 @@
     background-position: 20% center;
   }
 
+  /* === 美食图片调整 === */
+  /* 小屏幕下保持4:3宽高比，但可能需要调整其他样式 */
+  .img_animation {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+  }
+
 }
 
 /* == 宽度像素大于768px == */
 @media screen and (min-width: 768px) {
 
   /* == content == */
-  .img_animation {
-    max-height: 178px;
-  }
-
+  /* 大屏幕下使用food.css中定义的样式 */
+  /* 无需额外设置，food.css中的样式已足够 */
+  
 }

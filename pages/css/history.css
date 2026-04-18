@@ -11,7 +11,7 @@
 
 /* === jumbotron 巨幕 === */
 .jumbotron-bg {
-  background: url('../../resource/images/guilinjjwf.jpg');
+  background: url('../../resource/images/HistoryShouYe.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -211,13 +211,17 @@
   background-color: rgb(245,130,174);
   box-shadow: 4px 4px 20px wheat;
   border-radius: 50%;
-  line-height: 3.5rem;
   position: absolute;
   top: 50%;
   transform: translateY(-50%) translateX(calc(50% + .25rem));
   right: 0;
   transition: .3s;
   z-index: 6;
+
+  /* 删除原来的 line-height，改用 Flex 居中 */
+  display: flex;
+  align-items: center;      /* 垂直居中 */
+  justify-content: center;  /* 水平居中 */
 }
 
 .timeline-circle:hover {

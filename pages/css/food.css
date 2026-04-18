@@ -95,6 +95,10 @@
 .img_animation {
   transition: .5s;
   cursor: pointer;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .img_animation:hover {
