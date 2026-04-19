@@ -148,7 +148,8 @@
   z-index: 5;
   width: 40vw;
   max-width: 500px;
-  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
   padding: .5rem;
   border: 1px dotted #000;
   background-color: #fff;

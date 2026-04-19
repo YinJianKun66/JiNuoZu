@@ -218,3 +218,45 @@
 .up_top:visited {
   color: #FFF;
 }
+
+/* === 电脑端统一高度设置 === */
+@media screen and (min-width: 768px) {
+  /* 确保.row使用flex布局，使列高度一致 */
+  .food_bg .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* 让每个列容器高度100%继承父容器高度 */
+  .food_bg .col-md-4 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* 让美食卡片填充整个列容器高度 */
+  .food_bg .food_card {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* 填充可用高度 */
+    height: 100%;
+  }
+  
+  /* 确保卡片内部内容正确排列 - 针对.food_card中除了图片之外的div */
+  .food_bg .food_card > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* 让内容区域填充剩余空间 */
+  }
+  
+  /* 确保段落文字可以自由伸缩，推动其他元素到底部 */
+  .food_bg .food_card p {
+    flex: 1; /* 让段落填充剩余空间 */
+    margin-bottom: 0; /* 移除底部间距，让底部对齐更准确 */
+  }
+  
+  /* 确保标题和段落之间的间距正常 */
+  .food_bg .food_card h3.magin_box-8 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}

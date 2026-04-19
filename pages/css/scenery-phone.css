@@ -44,8 +44,12 @@
 
   /* == content == */
   .img_animation {
-    max-height: 178px;
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
   }
+
+  /* 大屏幕下使用主样式文件的设置，这里不需要覆盖 */
 
   .scenery-bg {
     padding: 1rem 3rem;

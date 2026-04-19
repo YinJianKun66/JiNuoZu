@@ -7,6 +7,14 @@
   /* == content == */
   .scenery_img {
     width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+  }
+
+  .img_animation {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
   }
 
   .food-intro {

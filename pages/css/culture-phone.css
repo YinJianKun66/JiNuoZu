@@ -43,6 +43,13 @@
     margin-bottom: 1rem;
   }
 
+  /* 确保小屏幕下图片也保持4:3比例 */
+  .card-img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+  }
+
 }
 
 /* == 宽度像素大于768px == */

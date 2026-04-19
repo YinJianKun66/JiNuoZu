@@ -18,6 +18,20 @@
     object-fit: cover;
   }
 
+  /* 手机端保持原有布局，不使用统一高度 */
+  .food_bg .row {
+    display: block;
+  }
+  
+  .food_bg .col-12 {
+    display: block;
+  }
+  
+  .food_bg .food_card {
+    display: block;
+    height: auto;
+  }
+
 }
 
 /* == 宽度像素大于768px == */

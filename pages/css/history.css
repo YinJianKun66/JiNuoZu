@@ -148,6 +148,12 @@
   transition: .3s;
 }
 
+.card-img img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
 .card-img:hover {
   transform: scale(.95) rotate(-5deg);
 }
